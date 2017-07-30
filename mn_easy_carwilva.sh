@@ -84,10 +84,7 @@ echo "masternode IP: "$IP":11994"
 echo "=================================================="
 sleep 1
 echo ""
-echo -e "\e[32mNow send \e[93m1000.000 CHC \e to this address \e[32m" $PUBLICkey
-sleep 1
-echo ""
-echo -e "After 15 confirmations on you deposit u can start u masternode with de command  chaincoind masternode start "
+echo -e "\e[32mNow send \e[93m1000.0001 CHC \e to this address\e" $PUBLICkey
 sleep 1
 echo ""
 echo "Here are some useful commands:"
