@@ -6,8 +6,10 @@ sudo mkswap /var/swap.img
 sudo swapon /var/swap.img
 sudo chmod 0600 /var/swap.img
 sudo chown root:root /var/swap.img
-sudo nano /etc/fstab
-/var/swap.img none swap sw 0 0
+sudo touch /etc/fstab
+
+echo "/var/swap.img none swap sw 0 0" >> /etc/fstab 
+
 apt-get -y update
 apt-get install -y nano
 apt-get install -y automake
